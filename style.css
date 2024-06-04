@@ -40,6 +40,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 
     --mainBlue: #1AC7F8;
     --Dark-Blue---400: #344054;
+    --violet--blue: #4282FF;
 
 
     --opacity100: #ffffff00;
@@ -190,7 +191,32 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     border: 1px solid var(--mainRed);
     color: var(--mainRed);
 }
-
+.blueBtn{
+    min-width: 30px;
+    gap: 6px;
+    background: var(--fullWhite);
+    border: 1px solid var(--violet--blue);
+    color: var(--violet--blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 10px;
+    font-size: 15px;
+    font-weight: var(--weight600);
+    line-height: 18.15px;
+    text-align: center;
+}
+.blueBtn:hover{
+    background: var(--violet--blue);
+    border: 1px solid var(--violet--blue);
+    color: var(--mainWhite);
+}
+.svg-icon path{
+    transition: all .3s linear;
+}
+.blueBtn:hover .svg-icon path {
+    fill: var(--fullWhite);
+}
 
 /* btns */
 
