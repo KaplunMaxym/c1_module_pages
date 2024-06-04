@@ -184,7 +184,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     justify-content: center;
     cursor: pointer;
     border: 1px solid var(--grayBack);
-
 }
 .xbtn:hover{
     background: var(--mainWhite);
@@ -217,7 +216,16 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .blueBtn:hover .svg-icon path {
     fill: var(--fullWhite);
 }
-
+.fullBlueBnt{
+    background: var(--violet--blue);
+    border: 1px solid var(--violet--blue);
+    color: var(--mainWhite);
+}
+.fullBlueBnt:hover{
+    background: var(--fullWhite);
+    border: 1px solid var(--violet--blue);
+    color: var(--violet--blue);
+}
 /* btns */
 
 
@@ -1622,7 +1630,7 @@ body{
 
 /* admin page */
 .adminMainContainer{
-    padding: 40px 20px 0 20px;
+    padding: 40px 20px 100px 20px;
     min-width: 100%;
     display: flex;
     flex-direction: column;
@@ -1798,8 +1806,6 @@ body{
 .select-selected:after {
     position: absolute;
     content: "";
-    /* color: var(--dark);
-    background-color: var(--dark); */
     top: 50%;
     transform: translate(0, -0%);
     right: 10px;
@@ -1815,7 +1821,6 @@ body{
 .select-selected {
     background: var(--fullWhite);
     color: var(--dark);
-    /* border: 1px solid black; */
     padding: 8px 16px;
     cursor: pointer;
 }
@@ -1848,6 +1853,115 @@ body{
     display: none;
 }
 .select-items div:hover, .same-as-selected {
-    /* background-color: rgba(0, 0, 0, 0.1); */
     background-color: var(--fullWhite);
+}
+
+.moduleVersionContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 100%;
+    background: var(--fullWhite);
+    border-radius: 25px;    
+}
+.moduleVersion{
+    width: 63px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: var(--weight500);
+    background: #F2F4F7;
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.dateModuleVersion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.dateModuleVersion span{
+    font-size: 15px;
+    font-weight: var(--weight400);
+    line-height: 18.15px;
+    color: var(--Gray---550);
+}
+.dateModuleVersion .boltTime{
+    font-size: 15px;
+    font-weight: var(--weight600);
+    line-height: 18.15px;
+    color: var(--Dark-Blue---400);
+}
+.keyModuleDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.keyContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.rowCopyBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.keyIco{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.keyIco span{
+    font-size: 16px;
+    font-weight: var(--weight600);
+    line-height: 19.36px;
+    text-align: center;
+    color: var(--mainBlack);
+}
+.changeHowerSvg{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 12px 20px;
+}
+.changeHowerSvg .copySvg path{
+    fill: var(--violet--blue);
+    transition: all .3s linear;
+}
+.changeHowerSvg:hover .copySvg path{
+    fill: var(--fullWhite);
+}
+.key_area{
+    display: block;
+    word-break: break-all;
+    font-size: 16px;
+    font-weight: var(--weight400);
+    line-height: 19.36px;
+    text-align: left;
+    color: var(--violet--blue);
+    width: 100%;
+    padding: 20px;
+    background: var(--gray400);
+    border-radius: 14px;
+}
+.domaiListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.gridInputContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+.btnRow{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
