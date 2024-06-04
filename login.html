@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <header class="headerContainer">
+            <div class="navContainer">
+                <div class="logoContainer">
+                    <a href="#"><img src="img/Logo.svg" alt="Product Transfer"></a>
+                </div>
+                <div class="btnContainer">
+                    <nav>
+                        <a href="#" data-link="about" class="linkBtn">Про модуль</a>
+                        <a href="#" data-link="abilities" class="linkBtn">Можливості</a>
+                        <a href="#" data-link="actuality" class="linkBtn">Актуальність</a>
+                        <a href="#" data-link="proses" class="linkBtn">Переваги</a>
+                        <a href="#" data-link="price" class="linkBtn">Прайс</a>
+                        <a href="#" data-link="questions" class="linkBtn">Запитання</a>
+                        <a href="#" data-link="connect" class="linkBtn">Зв’язок</a>
+                    </nav>
+                    <div class="actionsContainer">
+                        <button class="btn btnGray">Увійти</button>
+                        <button class="btn btnBorder">Реєстрація</button>
+                    </div>
+                </div>
+                <button id="modileMenuBtn" class="btnRedBorderMobile">
+                    <div class="btnRedBorderMobileLines">
+                        <div class="btnRedBorderMobileLine Line1"></div>
+                        <div class="btnRedBorderMobileLine Line2"></div>
+                        <div class="btnRedBorderMobileLine Line3"></div>
+                    </div>
+                </button>
+                <div id="mobileNavContainerBack" class="mobileNavContainerBack"></div>
+                <div id="mobileNavContainer" class="mobileNavContainer">
+                    <div class="logoXContainer">
+                        <a href="#"><img src="img/Logo.svg" alt="Product Transfer"></a>
+                        <div id="closeBtn" class="xbtn">
+                            <img src="img/close.svg" alt="close">
+                        </div>
+                    </div>
+                    <nav class="mobileBtnContainer">
+                        <a href="#" data-link="about" class="linkBtn">Про модуль</a>
+                        <a href="#" data-link="abilities" class="linkBtn">Можливості</a>
+                        <a href="#" data-link="actuality" class="linkBtn">Актуальність</a>
+                        <a href="#" data-link="proses" class="linkBtn">Переваги</a>
+                        <a href="#" data-link="price" class="linkBtn">Прайс</a>
+                        <a href="#" data-link="questions" class="linkBtn">Запитання</a>
+                        <a href="#" data-link="connect" class="linkBtn">Зв’язок</a>
+                        <div class="mobileActionsContainer">
+                            <button class="btn btnGray">Увійти</button>
+                            <button class="btn btnBorder">Реєстрація</button>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="loginSection">
+            <div class="signInContainer">
+                <form action="" class="formElemContainer">
+                    <div class="formMainTextContainer">
+                        <h2>Вхід</h2>
+                        <p>Введіть ваші облікові дані для доступу до вашого аккаунта</p>
+                    </div>
+                    <div class="inputBtnCOntainer">
+                        <div class="inputContainer">
+                            <span class="label">E-mail</span>
+                            <input type="text" placeholder="Введіть ваш e-mail">
+                        </div>
+                        <div class="inputContainer">
+                            <span class="label">Пароль</span>
+                            <div class="passwordInputContainer">
+                                <input type="password" placeholder="Ваш пароль">
+                                <div class="eyeIcon">
+                                    <img src="img/eyeClose.svg" data-password-status="close" alt="none">
+                                </div>
+                            </div>
+                            <div class="rememberMeLinkContainer">
+                                <div class="rememberMeContainer">
+                                    <input type="checkbox" class="checkboxInput">
+                                    <span>Запам’ятати мене</span>
+                                </div>
+                                <a href="">Забули пароль?</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btnRed btnFullSize">Увійти</button>
+                        <div class="orContainer">
+                            <div class="orLine"></div>
+                            <div class="orText">Або</div>
+                        </div>
+                        <button type="submit" class="btn googleBtn btnFullSize">
+                            <img src="img/googleIco.svg" alt="google">
+                            <span>Продовжити через Google</span>
+                        </button>
+                        <div class="registerRedirectContainer">
+                            <span>Немає аккаунту?</span>
+                            <a href="">Зареєструватись</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <div class="absoluteGridBackLoginRegister">
+            <img src="img/BGGrid.svg" alt="none">
+        </div>
+        <div class="absoluteColorBackLoginRegister"></div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>

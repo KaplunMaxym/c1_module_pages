@@ -1,0 +1,486 @@
+@media only screen and (max-width: 1400px) {
+    .navContainer{
+        left: 20px;
+        right: 20px;
+        width: auto;
+        max-width: none;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .navContainer{
+        left: 20px;
+        right: 20px;
+        width: auto;
+        max-width: none;
+        padding: 8px;
+    }
+    .btnContainer{
+        display: none;
+    }
+    .btnRedBorderMobile{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .bannerContainer h1{
+        padding: 0 20px;
+        font-size: 40px;
+        line-height: 47px;
+    }
+    .bannerContainer h2{
+        padding: 0 20px;
+    }
+    .descriptionContainer{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .aboutSec{
+        padding: 70px 20px;
+    }
+    .descriptionContainer h2{
+        text-align: center;
+    }
+    .textDescriptionContainer{
+        max-width: none;
+        width: 100%;
+    }
+    /* mainAdvantages */
+    .mainAdvantages{
+        gap: 36px;
+        padding: 13px 20px 89px 20px;
+    }
+
+    /* abilitiesSection */
+    .abilitiesSection{
+        padding: 87px 20px 70px 20px;
+        align-items: center;
+        gap: 50px;
+    }
+    .abilitiesSection h2{
+        width: 100%;
+        text-align: center;
+    }
+    .abilitiesContainer{
+        gap: 8px;
+    }
+
+    /* actyalitySection */
+    .actyalitySection{
+        padding: 0 20px 100px 20px;
+    }
+    .textContainer h2{
+        text-align: center;
+    }
+    .textContainer p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .actyalityTextContainer h3{
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+
+    /* forWhoSection */
+    .forWhoSection{
+        padding: 43px 20px;
+    }
+    .forHowUpBtn{
+        display: none;
+    }
+    .forWhoContainer{
+        flex-direction: column;
+        gap: 35px;
+        align-items: center;
+    }
+    .forWhoText h2{
+        width: 100%;
+        text-align: center;
+    }
+    .forHowDownBtn{
+        display: block;
+        margin-top: 15px;
+    }
+    .forWhoCardsContainer{
+        gap: 20px;
+    }
+
+    /* advantagesSection */
+    .advantagesContainer h2{
+        text-align: center;
+    }
+    .advantagesContainer p{
+        text-align: center;
+        width: 100%;
+    }
+    .advantagesDescription{
+        margin: 0;
+    }
+    .advantagesDiv{
+        flex-wrap: wrap;
+    }
+    .advantagesCard{
+        width: 50%;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(244, 244, 244, 0) 100%);   
+        height: auto; 
+    }
+    .advantagesCard:hover{
+        width: 50%;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(244, 244, 244, 0) 100%);    
+    }
+    .advantagesCard p{
+        display: block;
+    }
+
+    /* prisingSection */
+    .prisingCardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prisingCard{
+        max-width: 460px;
+    }
+
+    /* questionsSection */
+    .questionsSection{
+        padding: 20px 20px 70px 20px;
+    }
+    .questionsContainer{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .absoluteAnswerSvgBack{
+        display: none;
+    }
+    .questionsHeadTextContainer{
+        width: 100%;
+    }
+    .questionsHeadTextContainer h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    /* contactUsSection */
+    .contactUsSection{
+        padding: 150px 20px 70px 20px;
+    }
+    .contactUsContainer{
+        flex-direction: column;
+    }
+
+    /* footerContainer */
+    .mainInfoContainer{
+        padding: 0 85px 90px 65px;
+    }
+
+    .absoluteHeaderBack{
+        transform: scale(.9);
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+    .absoluteHeaderBack{
+        transform: scale(.6) translate(0, -250px);
+    }
+    .navContainer{
+        top: 10px;
+        left: 10px;
+        right: 10px;
+    }
+    .grayLine{
+        width: 60%;
+    }
+    .headerContainer{
+        padding-top: 110px;
+    }
+    .bannerContainer{
+        height: 614px;
+    }
+    .bannerContainer h1{
+        font-size: 24px;
+        line-height: 29px;
+        max-width: 340px;
+    }
+    .bannerContainer h2{
+        max-width: 440px;
+        padding: 0 20px;
+    }
+    .actionsContainer{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10px;
+        max-width: 340px;
+    }
+    .mobw100{
+        width: 100%;
+    }
+    .transferAnimationContainer{
+        padding: 0 20px;
+    }
+    .transerPoint{
+        min-width: 115px;
+        height: 36px;
+    }
+    .transerPoint img{
+        height: 19px;
+    }
+    .aboutSec{
+        padding: 50px 10px;
+    }
+    .textDescriptionContainer{
+        gap: 20px;
+    }
+    .descriptionContainer h2{
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+    .descriptionContainer p{
+        font-size: 16px;
+        line-height: 19.36px;        
+    }
+    /* mainAdvantages */
+    .mainAdvantages{
+        gap: 30px;
+        padding: 13px 10px 89px 10px;
+    }
+    .cardsContainer{
+        flex-direction: column;
+    }
+
+    /* abilitiesSection */
+    .abilitiesSection{
+        padding: 50px 10px 70px 10px;
+        align-items: center;
+        gap: 30px;
+    }
+    .abilitiesSection h2{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .abilitiesContainer{
+        gap: 8px;
+    }
+    .abilityCard{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .abilityCard .number{
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .abilityCard .abilityText{
+        font-size: 14px;
+        line-height: 27px;
+    }
+
+    /* actyalitySection */
+    .actyalitySection{
+        padding: 0 10px 100px 10px;
+    }
+    .actyalityContainer{
+        gap: 40px;
+    }
+    .textContainer h2{
+        width: 100%;
+        font-size: 24px;
+        line-height: 29.04px;        
+    }
+    .textContainer p{
+        width: 100%;
+        text-align: center;
+    }
+    .actyalityTextContainer{
+        gap: 15px;
+    }
+    .actyalityTextContainer h3{
+        font-size: 18px;
+        line-height: 21.78px;
+    }
+    .actyalityCard{
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+        background: linear-gradient(0deg, #F4F4F4 32.5%, #FFFFFF 100%);
+    }
+    .actyalityImage{
+        min-width: 120px;
+        min-height: 70px;
+    }
+
+    /* forWhoSection */
+    .forWhoSection{
+        padding: 43px 10px;
+    }
+    .forHowUpBtn{
+        display: none;
+    }
+    .forWhoContainer{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .forWhoCard{
+        max-width: none;
+        padding: 24px 20px;
+        background: var(--mainWhite);
+    }
+    .forWhoCard h3{
+        color: var(--mainRed);
+    }
+    .forWhoText h2{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+    .forHowDownBtn{
+        display: block;
+        margin-top: 0px;
+    }
+    .forWhoCardsContainer{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .forWhoAnimationLineDiv{
+        display: none;
+    }
+
+     /* advantagesSection */
+     .advantagesSection{
+        padding: 120px 10px 120px 10px;
+     }
+     .advantagesContainer{
+        gap: 40px;
+     }
+     .advantagesContainer h2{
+        text-align: center;
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+    .advantagesCard{
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+    }
+    .advantagesCard:hover{
+        width: 50%;
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(244, 244, 244, 0) 100%);    
+    }
+    .advantagesCard h3{
+        text-align: center;
+        width: 100%;
+    }
+    .advantagesCard p{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+    /* prisingSection */
+    .prisingHeadTextContainer h2{
+        font-size: 34px;
+        line-height: 41.14px;        
+    }
+    .prisingCard{
+        padding: 20px;
+    }
+    .prisingContainer{
+        gap: 20px;
+    }
+
+    /* questionsSection */
+    .questionsSection{
+        padding: 20px 10px 70px 10px;
+    }
+    .questionsContainer{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .absoluteAnswerSvgBack{
+        display: none;
+    }
+    .questionsHeadTextContainer{
+        width: 100%;
+    }
+    .questionsHeadTextContainer h2{
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+
+    /* contactUsSection */
+    .contactsHeadText h2{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 29.04px;
+    }
+    .contactsHeadText p{
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+
+    /* mobileNavContainer */
+    .mobileNavContainer{
+        padding: 10px;
+    }
+
+    /* terms privacy */
+    .headContainer h1{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+
+    /* loginSection */
+    .loginSection{
+        padding: 0 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1058px) {
+    .questionsSection{
+        min-height: 920px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainInfoContainer{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .mainInfoContainer{
+        padding: 0 85px 90px 35px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .footerContainer{
+        padding: 20px;
+    }
+    .rowElemContainer{
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    .mainInfoContainer{
+        padding: 0 0px 20px 0px;
+        gap: 12px;
+    }
+    .linkGridElem{
+        justify-content: center;
+    }
+}
