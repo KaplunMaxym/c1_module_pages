@@ -179,13 +179,13 @@ window.addEventListener('load', ()=>{
     }
     document.addEventListener("click", closeAllSelect);
 
-    // copy to clipbouar
+    // copy key to clip board
     document.querySelectorAll('.keyContainer').forEach(container => {
         container.querySelector('[data-copy-type="key"]').addEventListener('click', () => {
             const key = container.querySelector('.key_area').dataset.copyData;
             navigator.clipboard.writeText(key).then(() => {
                 let oldDaata = container.querySelector('[data-copy-type="key"]').innerHTML;
-                container.querySelector('[data-copy-type="key"]').innerHTML = "Скопійовано !";
+                container.querySelector('[data-copy-type="key"]').innerHTML = container.querySelector('[data-copy-type="key"]').dataset.copyMessage;
                 setTimeout(()=>{
                     container.querySelector('[data-copy-type="key"]').innerHTML = oldDaata;
                 }, 800)
