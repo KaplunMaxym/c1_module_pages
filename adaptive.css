@@ -483,4 +483,24 @@
     .linkGridElem{
         justify-content: center;
     }
+    
+    /* admin additive */
+    .userDomainInfo{
+        flex-direction: column;
+    }
+    .userInfoContainer{
+        gap: 66px;
+    }
+    .rowSelectBtnContainer{
+        flex-direction: column;
+    }
+    .userInfoContainer{
+        overflow: hidden;
+    }
+    .btnRow{
+        flex-direction: column;
+    }
+    .gridInputContainer{
+        grid-template-columns: 1fr;
+    }
 }
