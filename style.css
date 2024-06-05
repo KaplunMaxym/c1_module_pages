@@ -1596,7 +1596,7 @@ body{
     height: 100%;
     object-fit: cover;
     z-index: -2;
-    transform: scale(1.2);
+    transform: scale(0.7);
 }
 .absoluteColorBackLoginRegister{
     position: fixed;
