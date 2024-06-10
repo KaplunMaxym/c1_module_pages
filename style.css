@@ -1965,3 +1965,49 @@ body{
     justify-content: flex-end;
     gap: 10px;
 }
+
+/* 404 page */
+.сontainer404{
+    padding: 130px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+.absolute404Back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(50% 50% at 50% 50%, #FFFFFF 21.5%, #F4F4F4 67.5%, rgba(244, 244, 244, 0) 100%);
+    z-index: -1;
+}
+.img404Container{
+    width: 100%;
+    max-width: 652px;
+}
+.img404Container img{
+    width: 100%;
+    height: 100%;
+}
+.textContainer404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.mainText404{
+    font-size: 24px;
+    font-weight: var(--weight500);
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.secondaryText404{
+    font-size: 16px;
+    font-weight: var(--weight400);
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
